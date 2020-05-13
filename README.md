@@ -5,7 +5,7 @@
 Causal inference experiment are widely used in marketing and product campaign. This repository is the hub to store my notes and project on this topic from a Causal Inference course I took in MSBA program at the Univerisity of Minnesota. 
 
 
-## Technique Summary
+## Technique Summary:
 
 ![process](https://github.com/Olliang/Causal-Inference-Experiment/blob/master/images/common%20thought%20process.png)
 
