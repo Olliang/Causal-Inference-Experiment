@@ -3,7 +3,7 @@
 [Note: This is my class notes collected from [Mochen Yang](https://carlsonschool.umn.edu/faculty/mochen-yang)'s class. Copy right belongs to him.]
 
 
-![process](https://github.com/Olliang/MSBA-Stats-Notes/blob/master/images/common%20thought%20process.png)
+![process](https://github.com/Olliang/Causal-Inference-Experiment/blob/master/images/common%20thought%20process.png)
 
 
 ## 1. Correlation and Causation
@@ -213,7 +213,7 @@ summary(m7)
 # How to read the coefficient of the interaction term is negative => when you have a popular movie, the positive effect of the discount on lease is reduced.
 ```
 
-![technical notes](https://github.com/Olliang/MSBA-Stats-Notes/blob/master/images/experiment%20-%20technical.PNG)
+![technical notes](https://github.com/Olliang/Causal-Inference-Experiment/blob/master/images/experiment%20-%20technical.PNG)
 
 
 ## 5. Matching 
@@ -385,7 +385,7 @@ match_output <- matchit(premium ~ view_time_total_hr, data = data_pre,
 ```
 
 
-![technical notes](https://github.com/Olliang/MSBA-Stats-Notes/blob/master/images/matching%20-%20technical.PNG)
+![technical notes](https://github.com/Olliang/Causal-Inference-Experiment/blob/master/images/matching%20-%20technical.PNG)
 
 
 
@@ -454,7 +454,7 @@ phtest(FE_model, RE_model)
 ```
 
 
-![technical notes](https://github.com/Olliang/MSBA-Stats-Notes/blob/master/images/Fixed%20effect%20-%20technical.PNG)
+![technical notes](https://github.com/Olliang/Causal-Inference-Experiment/blob/master/images/Fixed%20effect%20-%20technical.PNG)
 
 
 
@@ -557,4 +557,4 @@ did_basic_placebo = lm(view_time_total_hr ~ premium + after_placebo + premium*af
 summary(did_basic_placebo)
 ```
 
-![technical notes](https://github.com/Olliang/MSBA-Stats-Notes/blob/master/images/DID-technical.PNG)
+![technical notes](https://github.com/Olliang/Causal-Inference-Experiment/blob/master/images/DID-technical.PNG)
