@@ -14,3 +14,4 @@ Causal inference experiment are widely used in marketing and product campaign. T
 `Inferential Experiment Design.md` - Markdown file that stores different inferential experiment design techniques
 
 `Netflix Thumbnails project Report.pdf` - PDF report that records a causal inference experiment design I contributed in R to analyze whether people are more likely watch a Netflix show where the thumbnail includes a person of their race
+(You can also check out the Medium article my teammate published about this interesting project: https://medium.com/@sdhrshn/netflix-a-b-testing-5d7c8216853f)
